@@ -1,348 +1,105 @@
-# 🐊 PokeCroc Inc.
+# 🐊 PokeCroc
 
 <p align="center">
-  <strong>Building the world of PokeCroc.</strong>
+  <img src="https://img.shields.io/badge/PokeCroc-PokéTibia-ffcb05?style=for-the-badge&logo=pokemon&logoColor=222">
+  <img src="https://img.shields.io/badge/Status-In%20Development-5865F2?style=for-the-badge">
+</p>
+
+<p align="center">
+  <strong>Um mundo Pokémon criado por nós.</strong>
   <br>
-  <sub>Server • Client • Content • Web • Infrastructure</sub>
-</p>
-
-<p align="center">
-  <a href="https://github.com/PokeCroc-Inc">Organization</a>
-  •
-  <a href="https://github.com/PokeCroc-Inc?tab=repositories">Repositories</a>
-  •
-  <a href="https://github.com/PokeCroc-Inc/issues">Issues</a>
+  <sub>Explore • Treine • Batalhe • Conquiste</sub>
 </p>
 
 ---
 
-## 🐊 About PokeCroc
+## 🌎 Bem-vindo ao PokeCroc
 
-**PokeCroc** is a PokéTibia project focused on building a complete and evolving Pokémon MMORPG experience.
+O **PokeCroc** é um projeto de PokéTibia criado por pessoas que simplesmente amam Pokémon, Tibia e a ideia de construir nosso próprio mundo.
 
-This organization brings together the code, tools, content and infrastructure required to develop and operate the project.
+Estamos desenvolvendo nossa própria experiência, com novos sistemas, mapas, Pokémon, aventuras e tudo aquilo que faz um mundo online parecer realmente vivo.
 
-Our goal is simple:
-
-> **Build something we would want to play ourselves.**
-
-From the game server and client to maps, systems, websites, tools and deployment infrastructure, everything is developed with long-term maintainability and scalability in mind.
+🐊 **Nosso objetivo é criar um mundo que dê vontade de explorar.**
 
 ---
 
-## ⚙️ Our Ecosystem
+## ✨ O que estamos criando?
 
-The PokeCroc ecosystem is organized around several core areas:
+🌟 **Um mundo Pokémon**
 
-| Area                  | Responsibility                                       |
-| --------------------- | ---------------------------------------------------- |
-| 🧠 **Server**         | Core game logic, systems and networking              |
-| 🎮 **Client**         | Game client and player experience                    |
-| 🗺️ **Content**       | Pokémon, maps, quests, NPCs, items and world content |
-| 🌐 **Web**            | Website, account systems and web services            |
-| 🚀 **Infrastructure** | Hosting, deployment, containers and automation       |
-| 🛠️ **Tools**         | Internal tools and development utilities             |
-| 🧪 **QA**             | Testing, validation and quality assurance            |
-| 📚 **Documentation**  | Technical and project documentation                  |
+Explore cidades, rotas, cavernas, ilhas e lugares secretos.
+
+⚔️ **Batalhas**
+
+Treine seus Pokémon, monte sua equipe e enfrente outros jogadores.
+
+🗺️ **Um mundo para explorar**
+
+Novas regiões, quests, segredos e aventuras esperando para serem descobertos.
+
+🎮 **Sistemas próprios**
+
+Estamos criando e aprimorando sistemas para tornar o PokeCroc uma experiência única.
+
+🐾 **Muitos Pokémon**
+
+Capture, treine e evolua seus Pokémon enquanto constrói sua própria jornada.
 
 ---
 
-## 🏗️ Development
+## 🛠️ Nossos projetos
 
-PokeCroc follows a collaborative development workflow.
+A PokeCroc Inc. reúne tudo o que faz parte do projeto:
 
 ```text
-                 ┌───────────────┐
-                 │    Feature    │
-                 │     Branch    │
-                 └───────┬───────┘
-                         │
-                         ▼
-                 ┌───────────────┐
-                 │ Pull Request  │
-                 └───────┬───────┘
-                         │
-                         ▼
-                 ┌───────────────┐
-                 │ CI / Checks   │
-                 └───────┬───────┘
-                         │
-                         ▼
-                 ┌───────────────┐
-                 │ Code Review   │
-                 └───────┬───────┘
-                         │
-                         ▼
-                 ┌───────────────┐
-                 │    Merge      │
-                 └───────┬───────┘
-                         │
-                         ▼
-                 ┌───────────────┐
-                 │    Release    │
-                 └───────────────┘
-```
-
-We prefer small, focused changes over large and difficult-to-review pull requests.
-
-### Branches
-
-Typical development branches:
-
-```text
-main
-develop
-feature/*
-fix/*
-hotfix/*
-refactor/*
-```
-
-`main` represents production-ready code.
-
----
-
-## 🧩 Repository Philosophy
-
-Each repository should have a clear responsibility.
-
-Avoid creating repositories simply because a component is convenient to separate.
-
-Before creating a new repository, ask:
-
-* Does this component have an independent lifecycle?
-* Does it require different permissions?
-* Does it have a different deployment process?
-* Would separating it make development easier?
-* Can its purpose be clearly explained in one sentence?
-
-If the answer is no, it probably belongs in an existing repository.
-
----
-
-## 🔐 Security
-
-Security is everyone's responsibility.
-
-Never commit:
-
-```text
-API keys
-Passwords
-Database credentials
-Private keys
-Access tokens
-Production secrets
-.env files containing secrets
-```
-
-Use GitHub Secrets, environment variables or the appropriate secret-management system.
-
-If you discover a security vulnerability, **do not create a public issue containing sensitive information**.
-
-Report it privately to the project maintainers.
-
----
-
-## 🤝 Contributions
-
-Contributions are welcome from people who want to help improve PokeCroc.
-
-Before opening a pull request:
-
-1. Make sure you understand the repository's contribution guidelines.
-2. Keep changes focused.
-3. Test your changes locally.
-4. Update documentation when necessary.
-5. Do not include unrelated changes.
-6. Provide enough context for reviewers to understand the change.
-
-Good pull request:
-
-```text
-feat: add Pokémon breeding system
-```
-
-Less useful pull request:
-
-```text
-updates
-```
-
-Clear commits and pull requests make the project's history significantly easier to maintain.
-
----
-
-## 🐛 Issues
-
-Use GitHub Issues for actionable problems and tasks.
-
-Examples:
-
-```text
-Bug
-Feature
-Improvement
-Refactor
-Documentation
-Infrastructure
-```
-
-When reporting a bug, provide enough information to reproduce it whenever possible.
-
-A useful bug report should answer:
-
-* What happened?
-* What was expected?
-* How can it be reproduced?
-* Which version was being used?
-* Are there relevant logs or screenshots?
-
----
-
-## 💡 Discussions & Ideas
-
-Not every idea needs to become an issue.
-
-Use discussions for:
-
-* Architecture decisions
-* New system ideas
-* Gameplay proposals
-* Development questions
-* Community discussion
-* Technical decisions
-
-The objective is to keep the issue tracker focused on work that can actually be executed.
-
----
-
-## 🧑‍💻 Development Principles
-
-### Keep it maintainable
-
-Code written today may need to be maintained years from now.
-
-### Prefer clarity
-
-Readable code is usually better than clever code.
-
-### Automate repetitive work
-
-If developers repeatedly perform the same manual operation, consider automating it.
-
-### Document important decisions
-
-If something is non-obvious, document the reasoning — not only the implementation.
-
-### Review before merging
-
-Code review is not about finding someone to blame.
-
-It's about improving the project.
-
----
-
-## 📦 Releases
-
-Production releases should be identifiable and reproducible.
-
-We use semantic versioning where appropriate:
-
-```text
-MAJOR.MINOR.PATCH
-```
-
-Example:
-
-```text
-v1.4.0
-v1.4.1
-v2.0.0
-```
-
-Every production release should provide enough information to understand what changed.
-
----
-
-## 🛠️ Organization Structure
-
-The organization is divided into teams according to responsibility.
-
-```text
-PokeCroc Inc.
+🐊 PokeCroc
 │
-├── 🧠 Core
+├── 🎮 Game
 │   ├── Server
-│   └── Database
+│   └── Client
 │
-├── 🗺️ Content
-│   ├── Pokémon
+├── 🗺️ World
 │   ├── Maps
+│   ├── Pokémon
 │   ├── Quests
-│   └── Gameplay
-│
-├── 🎮 Client
-│   ├── Client
-│   └── Launcher
+│   └── Events
 │
 ├── 🌐 Web
 │   └── Website
 │
-├── 🚀 DevOps
-│   ├── Infrastructure
-│   ├── CI/CD
-│   └── Deployment
+├── 🚀 Infrastructure
+│   └── Everything that keeps the world running
 │
-└── 🧪 QA
-    ├── Testing
-    └── Quality
+└── 🛠️ Tools
+    └── Tools created for the project
 ```
-
-Access to repositories should be granted according to responsibility rather than automatically giving everyone access to everything.
 
 ---
 
-## 📚 Documentation
+## 💚 Feito com paixão
 
-Technical documentation should live as close as possible to the code it describes.
+O PokeCroc é um projeto independente.
 
-Repository-specific documentation belongs in the repository.
+Cada mapa, sistema, Pokémon, quest e detalhe existe porque alguém decidiu colocar uma ideia no mundo.
 
-Cross-project documentation belongs in the organization's documentation resources.
+Não estamos tentando apenas fazer mais um servidor.
 
-When something is important enough to be remembered, document it.
+**Estamos tentando criar o nosso próprio mundo Pokémon.**
 
 ---
 
-## 🐊 PokeCroc
+## 🐊 Join the adventure
 
-This organization is more than a collection of repositories.
+O projeto ainda está em desenvolvimento e muita coisa ainda está por vir.
 
-It's the foundation of the PokeCroc project.
+Se você chegou até aqui...
 
-```text
-        CODE
-         │
-         ▼
-      SYSTEMS
-         │
-         ▼
-      CONTENT
-         │
-         ▼
-      PLAYERS
-         │
-         ▼
-     POKECROC
-```
-
-**Build. Test. Improve. Ship.**
+**bem-vindo à PokeCroc.** ❤️
 
 <br>
 
 <p align="center">
-  <strong>🐊 PokeCroc Inc.</strong>
+  <strong>🐊 PokeCroc</strong>
   <br>
-  <sub>Creating our own Pokémon world, one commit at a time.</sub>
+  <sub>Catch them. Train them. Become a legend.</sub>
 </p>
