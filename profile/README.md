@@ -1,105 +1,88 @@
 # 🐊 PokeCroc
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PokeCroc-PokéTibia-ffcb05?style=for-the-badge&logo=pokemon&logoColor=222">
-  <img src="https://img.shields.io/badge/Status-In%20Development-5865F2?style=for-the-badge">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:2d6a4f&height=180&section=header&text=PokeCroc&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" />
 </p>
 
 <p align="center">
   <strong>Um mundo Pokémon criado por nós.</strong>
-  <br>
+  <br />
   <sub>Explore • Treine • Batalhe • Conquiste</sub>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PokéTibia-🐊-2d6a4f?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-In%20Development-f5c542?style=for-the-badge" />
 </p>
 
 ---
 
-## 🌎 Bem-vindo ao PokeCroc
+## 🌎 Sobre o PokeCroc
 
-O **PokeCroc** é um projeto de PokéTibia criado por pessoas que simplesmente amam Pokémon, Tibia e a ideia de construir nosso próprio mundo.
+O **PokeCroc** é um projeto de PokéTibia criado por pessoas apaixonadas por Pokémon, Tibia e pela ideia de construir nosso próprio mundo.
 
-Estamos desenvolvendo nossa própria experiência, com novos sistemas, mapas, Pokémon, aventuras e tudo aquilo que faz um mundo online parecer realmente vivo.
+Estamos criando uma experiência com nossos próprios sistemas, mapas, aventuras, eventos e muito mais.
 
-🐊 **Nosso objetivo é criar um mundo que dê vontade de explorar.**
+> 🐊 **Nosso objetivo é criar um mundo que dê vontade de explorar.**
 
 ---
 
 ## ✨ O que estamos criando?
 
-🌟 **Um mundo Pokémon**
-
-Explore cidades, rotas, cavernas, ilhas e lugares secretos.
-
-⚔️ **Batalhas**
-
-Treine seus Pokémon, monte sua equipe e enfrente outros jogadores.
-
-🗺️ **Um mundo para explorar**
-
-Novas regiões, quests, segredos e aventuras esperando para serem descobertos.
-
-🎮 **Sistemas próprios**
-
-Estamos criando e aprimorando sistemas para tornar o PokeCroc uma experiência única.
-
-🐾 **Muitos Pokémon**
-
-Capture, treine e evolua seus Pokémon enquanto constrói sua própria jornada.
+* 🐾 **Pokémon** — capture, treine e evolua sua equipe.
+* ⚔️ **Batalhas** — enfrente outros jogadores e desafios pelo mundo.
+* 🗺️ **Exploração** — descubra cidades, rotas, cavernas e lugares secretos.
+* 📜 **Quests** — aventuras, histórias e desafios espalhados pelo mundo.
+* 🎉 **Eventos** — eventos especiais para manter o mundo sempre vivo.
+* ⚙️ **Sistemas próprios** — mecânicas criadas especialmente para o PokeCroc.
 
 ---
 
-## 🛠️ Nossos projetos
+## 🛠️ Projetos
 
-A PokeCroc Inc. reúne tudo o que faz parte do projeto:
+A organização reúne todos os projetos que fazem parte do ecossistema PokeCroc.
 
 ```text
 🐊 PokeCroc
 │
-├── 🎮 Game
-│   ├── Server
-│   └── Client
-│
-├── 🗺️ World
-│   ├── Maps
-│   ├── Pokémon
-│   ├── Quests
-│   └── Events
-│
-├── 🌐 Web
-│   └── Website
-│
+├── 🎮 Server
+├── 🖥️ Client
+├── 🗺️ Maps & Content
+├── 🌐 Website
 ├── 🚀 Infrastructure
-│   └── Everything that keeps the world running
-│
 └── 🛠️ Tools
-    └── Tools created for the project
 ```
 
 ---
 
-## 💚 Feito com paixão
+## 📊 Desenvolvimento
 
-O PokeCroc é um projeto independente.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=PokeCroc-Inc&show_icons=true&hide_border=true&theme=dark&bg_color=00000000" />
+</p>
 
-Cada mapa, sistema, Pokémon, quest e detalhe existe porque alguém decidiu colocar uma ideia no mundo.
-
-Não estamos tentando apenas fazer mais um servidor.
-
-**Estamos tentando criar o nosso próprio mundo Pokémon.**
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PokeCroc-Inc&hide_border=true&theme=dark&background=00000000" />
+</p>
 
 ---
 
-## 🐊 Join the adventure
-
-O projeto ainda está em desenvolvimento e muita coisa ainda está por vir.
-
-Se você chegou até aqui...
-
-**bem-vindo à PokeCroc.** ❤️
-
-<br>
+## 🐍 Nossa atividade
 
 <p align="center">
-  <strong>🐊 PokeCroc</strong>
-  <br>
-  <sub>Catch them. Train them. Become a legend.</sub>
+  <img src="https://raw.githubusercontent.com/PokeCroc-Inc/.github/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
+---
+
+## 🐊 PokeCroc
+
+O projeto ainda está em desenvolvimento.
+
+Tem muita coisa para construir, muitos Pokémon para capturar e um mundo inteiro esperando para ser explorado.
+
+<p align="center">
+  <strong>Catch them. Train them. Become a legend.</strong>
+  <br />
+  🐊
 </p>
