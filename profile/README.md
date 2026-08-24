@@ -12,7 +12,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/PokéTibia-🐊-2d6a4f?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-In%20Development-f5c542?style=for-the-badge" />
 </p>
 
 ---
@@ -55,29 +54,9 @@ A organização reúne todos os projetos que fazem parte do ecossistema PokeCroc
 
 ---
 
-## 📊 Desenvolvimento
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PokeCroc-Inc&show_icons=true&hide_border=true&theme=dark&bg_color=00000000" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PokeCroc-Inc&hide_border=true&theme=dark&background=00000000" />
-</p>
-
----
-
-## 🐍 Nossa atividade
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/PokeCroc-Inc/.github/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</p>
-
----
-
 ## 🐊 PokeCroc
 
-O projeto ainda está em desenvolvimento.
+Um mundo Pokémon criado por nós.
 
 Tem muita coisa para construir, muitos Pokémon para capturar e um mundo inteiro esperando para ser explorado.
 
